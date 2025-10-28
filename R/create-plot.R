@@ -12,10 +12,6 @@ df = read_csv("data/weatherAUS.csv")
 city = "Brisbane"
 
 
-
-
-###jlphi;hi
-
 scatter_plot = 
 df %>%
   filter(Location == city) %>%
